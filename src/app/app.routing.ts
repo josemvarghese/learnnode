@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddInfoComponent } from './add-info/add-info.component';
 import { ListingComponent } from './listing/listing.component';
+import { SocketComponent } from './socket/socket.component';
 
 const appRoutes:Routes = [
   
@@ -10,10 +11,13 @@ const appRoutes:Routes = [
     component:AddInfoComponent,
   },
   {
+    path:"message",
+    component:SocketComponent,
+  },
+  {
     path:"list",
     component:ListingComponent,
   },
-  
 ]
 @NgModule({
 

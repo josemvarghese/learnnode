@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 import { AddInfoComponent } from './add-info/add-info.component';
 import { ListingComponent } from './listing/listing.component';
+import { SocketComponent } from './socket/socket.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListingComponent,
-    AddInfoComponent
+    AddInfoComponent,
+    SocketComponent
   ],
   imports: [
     BrowserModule,
