@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 import { AddInfoComponent } from './add-info/add-info.component';
 import { ListingComponent } from './listing/listing.component';
+import { GooglesigninComponent } from './googlesignin/googlesignin.component';
 import { SocketComponent } from './socket/socket.component';
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SocketComponent } from './socket/socket.component';
     AppComponent,
     ListingComponent,
     AddInfoComponent,
-    SocketComponent
+    SocketComponent,
+    GooglesigninComponent
   ],
   imports: [
     BrowserModule,
